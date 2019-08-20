@@ -1,0 +1,23 @@
+{
+  "name": "Dspec",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.2",
+    "cors": "^2.8.4",
+    "email-templates": "^5.0.4",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "expressjs": "^1.0.1",
+    "handlebars": "^4.1.2",
+    "hbs": "^4.0.4",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.1.0",
+    "pug": "^2.0.3",
+    "serve-favicon": "^2.5.0"
+  }
+}
