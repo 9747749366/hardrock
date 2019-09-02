@@ -29,11 +29,17 @@ router.get('/', function (req, res, next) {
 router.get('/about-us.html', function (req, res, next) {
     res.sendFile(path.join(__dirname, '../', 'app', 'views/about-us.html'));
 });
-router.get('/projects.html', function (req, res, next) {
-    res.sendFile(path.join(__dirname, '../', 'app', 'views/projects.html'));
-});
 router.get('/contact-us.html', function (req, res, next) {
     res.sendFile(path.join(__dirname, '../', 'app', 'views/contact-us.html'));
+});
+router.get('/building-blocks.html', function (req, res, next) {
+    res.sendFile(path.join(__dirname, '../', 'app', 'views/building-blocks.html'));
+});
+router.get('/pavers.html', function (req, res, next) {
+    res.sendFile(path.join(__dirname, '../', 'app', 'views/pavers.html'));
+});
+router.get('/kerb-stone.html', function (req, res, next) {
+    res.sendFile(path.join(__dirname, '../', 'app', 'views/kerb-stone.html'));
 });
 
 
