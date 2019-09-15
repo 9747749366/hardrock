@@ -41,6 +41,9 @@ router.get('/pavers.html', function (req, res, next) {
 router.get('/kerb-stone.html', function (req, res, next) {
     res.sendFile(path.join(__dirname, '../', 'app', 'views/kerb-stone.html'));
 });
+router.get('/products.html', function (req, res, next) {
+    res.sendFile(path.join(__dirname, '../', 'app', 'views/products.html'));
+});
 
 
 router.post('/contact-us', function (req, res, next) {
