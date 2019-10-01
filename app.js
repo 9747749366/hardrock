@@ -29,7 +29,7 @@ app.use(compression());
 app.use(cors({credentials: true, origin: true}));
 
 
-// app.use(favicon(path.join(__dirname,'app','assets','img','favicon.png')));
+app.use(favicon(path.join(__dirname,'app','assets','img','icon.png')));
 
 app.use(express.static(__dirname + "/app"));
 
