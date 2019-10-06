@@ -1800,6 +1800,18 @@ a.cta-footer:hover h2:after {
     position: relative;
     z-index: 0;
 }
+#contact-content-area {
+    background: url(../img/contact-main-full.jpg);
+    padding: 100px 0;
+    position: relative;
+    z-index: 0;
+}
+#top-product-area {
+    background: url(../img/product-main-full.jpg);
+    padding: 100px 0;
+    position: relative;
+    z-index: 0;
+}
 
 #building-block {
     background: url(../img/about/building-blocks-banner.jpg);
