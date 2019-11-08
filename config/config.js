@@ -1,6 +1,4 @@
 module.exports = {
     port:8000,
-    mail:'smtps://nakultest12%40gmail.com:!@test!@@smtp.gmail.com',
-    // mail_list:'ssajeev@rosepetalshealthcare.co.uk,ssiju@rosepetalshealthcare.co.uk,scmathews@rosepetalshealthcare.co.uk,ssanu@rosepetalshealthcare.co.uk'
-    mail_list:'nakul@simelabs.com, nakul.sayone@gmail.com'
+    sendGridAPIKey: "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"
 }
